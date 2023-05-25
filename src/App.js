@@ -1,11 +1,12 @@
-import "./App.css";
+import React from "react";
+import MainLayout from "./Layout/MainLayout";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <Navbar />
+    <div>
+      <MainLayout />
     </div>
   );
-}
+};
 
 export default App;

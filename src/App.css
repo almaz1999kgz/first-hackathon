@@ -36,3 +36,57 @@
     transform: rotate(360deg);
   }
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1db954;
+  padding: 10px;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  color: #fff;
+  font-size: 24px;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-link {
+  color: #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.nav-link.active {
+  font-weight: bold;
+}
+
+.navbar-profile {
+  display: flex;
+  align-items: center;
+}
+
+.profile-picture {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-name {
+  color: #fff;
+}
